@@ -1,0 +1,93 @@
+// @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Philosopher:wght@400;700&display=swap')
+@import './mixins'
+
+:root
+  --main-color: #a19588
+  --sec-color: #776b61
+  --black-color: #000
+  --white-color: #fff
+
+  --transition-xl: 1s
+  --transition-l: .8s
+  --transition-m: .6s
+  --transition-s: .4s
+  --transition-timing: cubic-bezier(.6, .2, 0, 1)
+
+body
+  font-family: $basic-font
+  color: var(--black-color)
+  background-color: #f1ede8
+
+// 基本設定
+.space-lr
+  padding-left: 80px
+  padding-right: 80px
+  +rwdmax(1024)
+    padding-left: 60px
+    padding-right: 60px
+  +rwdmax(767)
+    padding-left: 20px
+    padding-right: 20px
+
+// image
+.image
+  +posFill
+  img
+    +imgFit
+
+// 
+[data-title-xl]
+  font-size: clamp(72px, 5.5vw, 86px)
+  line-height: 1.2
+  +rwdmax(1024)
+    font-size: px(58)
+  +rwdmax(767)
+    font-size: px(44)
+[data-title-l]
+  font-size: clamp(60px, 4.5vw, 76px)
+  line-height: 1.2
+  +rwdmax(1024)
+    font-size: px(52)
+  +rwdmax(767)
+    font-size: px(40)
+[data-title-m]
+  font-size: px(48)
+  line-height: 1.2
+[data-title-s]
+  font-size: px(32)
+  line-height: 1.2
+  +rwdmax(1024)
+    font-size: px(28)
+  +rwdmax(767)
+    font-size: px(20)
+
+[data-brief-xl]
+  font-size: px(24)
+  line-height: 1.6
+  color: #666
+  +rwdmax(1024)
+    font-size: px(22)
+  +rwdmax(767)
+    font-size: px(20)
+[data-brief-l]
+  font-size: px(20)
+  line-height: 1.6
+  color: #666
+  +rwdmax(1024)
+    font-size: px(18)
+[data-brief-m]
+  font-size: px(18)
+  line-height: 1.6
+  color: #666
+  +rwdmax(1024)
+    font-size: px(16)
+[data-brief-s]
+  font-size: px(16)
+  line-height: 1.6
+  color: #666
+  +rwdmax(1024)
+    font-size: px(14)
+[data-brief-xs]
+  font-size: px(14)
+  line-height: 1.6
+  color: #666

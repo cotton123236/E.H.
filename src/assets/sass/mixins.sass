@@ -1,0 +1,64 @@
+@use "sass:math"
+	
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Philosopher:wght@400;700&display=swap')
+	
+// vars
+$basic-font: 'Philosopher', 'Noto Sans TC', sans-serif
+	
+$main-color: #d4c7ba
+	
+$loader-path: #a5b5d8
+$loader-dot: #3b5286
+	
+	
+@mixin rwdmax($max)
+	@media only screen and (max-width: $max + px)  
+		@content
+
+@mixin rwdLand()
+	@media screen and (orientation: landscape)
+		@content
+@mixin rwdPort()
+	@media screen and (orientation: portrait)
+		@content
+
+@function px($px)
+	@return math.div($px, 16) * 1rem
+
+@mixin flex($flex: flex, $fw: nowrap, $fd: row, $jc: center, $ai: center)
+	display: $flex
+	flex-wrap: $fw
+	flex-direction: $fd
+	justify-content: $jc
+	align-items: $ai
+
+@mixin pseudo($pos: absolute, $con: '', $dis: block)
+	position: $pos
+	content: $con
+	display: $dis
+
+@mixin posCenter($top: 50%, $left: 50%)
+	position: absolute
+	top: $top
+	left: $left
+	transform: translate(-50%, -50%)
+
+@mixin posFill
+	position: absolute
+	top: 0
+	left: 0
+	width: 100%
+	height: 100%
+
+@mixin imgFit($fit: cover, $pos: center)
+	width: 100%
+	height: 100%
+	object-fit: $fit
+	object-position: $pos
+
+@mixin ellipsis($line: 2)
+	display: block
+	overflow: hidden
+	display: -webkit-box
+	-webkit-box-orient: vertical
+	-webkit-line-clamp: $line

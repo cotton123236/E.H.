@@ -1,0 +1,127 @@
+{
+  "banner": {
+    "title": "ENJOY HOME<br>ENJOY LIFE",
+    "subTitle": "享受家，享受生活該有的樣子",
+    "content": {
+      "01": {
+        "image": "/src/assets/image/products/storage/storage-01-01.jpg",
+        "text": ""
+      },
+      "02": {
+        "image": "/src/assets/image/products/storage/storage-09-01.jpg",
+        "text": ""
+      },
+      "03": {
+        "image": "/src/assets/image/products/carpet/carpet-08-01.jpg",
+        "text": ""
+      }
+    }
+  },
+  "collection": {
+    "title": "Collection",
+    "subTitle": "Design and manufacture, from concept to finish, become a product ambassador.",
+    "content": {
+      "01": {
+        "imageFront": "/src/assets/image/products/carpet/carpet-06-01.jpg",
+        "imageBack": "/src/assets/image/products/carpet/carpet-06-02.jpg",
+        "position": "subbot",
+        "direction": "vert",
+        "size": "m",
+        "text": "Carpet",
+        "href": "javascript:;"
+      },
+      "02": {
+        "imageFront": "/src/assets/image/products/pillow/pillow-01-03.jpg",
+        "imageBack": "/src/assets/image/products/pillow/pillow-01-01.jpg",
+        "position": "top",
+        "direction": "vert",
+        "size": "s",
+        "text": "Pillow",
+        "href": "javascript:;"
+      },
+      "03": {
+        "imageFront": "/src/assets/image/products/storage/storage-02-02.jpg",
+        "imageBack": "/src/assets/image/products/storage/storage-02-03.jpg",
+        "position": "center",
+        "direction": "hori",
+        "size": "m",
+        "text": "Storage",
+        "href": "javascript:;"
+      },
+      "04": {
+        "imageFront": "/src/assets/image/products/quilt/quilt-02-01.jpg",
+        "imageBack": "/src/assets/image/products/quilt/quilt-02-02.jpg",
+        "position": "bot",
+        "direction": "vert",
+        "size": "m",
+        "text": "Quilt",
+        "href": "javascript:;"
+      },
+      "05": {
+        "imageFront": "/src/assets/image/products/curtain/curtain-01-01.jpg",
+        "imageBack": "/src/assets/image/products/curtain/curtain-02-01.jpg",
+        "position": "subtop",
+        "direction": "hori",
+        "size": "s",
+        "text": "Curtain",
+        "href": "javascript:;"
+      },
+      "06": {
+        "imageFront": "/src/assets/image/products/carpet/carpet-04-01.jpg",
+        "imageBack": "/src/assets/image/products/carpet/carpet-04-02.jpg",
+        "position": "center",
+        "direction": "hori",
+        "size": "l",
+        "text": "Carpet",
+        "href": "javascript:;"
+      }
+    }
+  },
+  "news": {
+    "title": "News & Events",
+    "subTitle": "不要委屈自己，要不就真心喜歡現在家的樣子，要不就把家變成自己喜歡的樣子。",
+    "content": {
+      "01": {
+        "image": "/src/assets/image/products/quilt/quilt-02-04.jpg",
+        "title": "All quilt 20% off",
+        "text": "All quilt 20% off until 31 Dec.",
+        "href": "javascript:;"
+      },
+      "02": {
+        "image": "/src/assets/image/products/pillow/pillow-02-04.jpg",
+        "title": "All pillows 20% off",
+        "text": "All pillows 20% off until 31 Dec.",
+        "href": "javascript:;"
+      }
+    }
+  },
+  "product": {
+    "title": "Products",
+    "subTitle": "生活很難，逆境總是來得措手不及，但與其埋怨它，不如好好享受它。",
+    "content": {
+      "carpet": {
+        "title": "Carpet",
+        "content": {
+          "01": {
+            "image": "/src/assets/image/products/carpet/carpet-01-01.jpg",
+            "title": "森林系長絨地墊",
+            "price": "480",
+            "href": "javascript:;"
+          },
+          "02": {
+            "image": "/src/assets/image/products/carpet/carpet-02-01.jpg",
+            "title": "黃麻編織裝飾地墊",
+            "price": "990",
+            "href": "javascript:;"
+          },
+          "03": {
+            "image": "/src/assets/image/products/carpet/carpet-03-01.jpg",
+            "title": "淡綠漸層地墊",
+            "price": "500",
+            "href": "javascript:;"
+          }
+        }
+      }
+    }
+  }
+}

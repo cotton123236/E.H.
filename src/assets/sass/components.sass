@@ -1,0 +1,54 @@
+.swiper-arrows
+  display: flex
+  align-items: center
+  &.white
+    .swiper-arrow-prev, .swiper-arrow-next
+      color: var(--white-color)
+      &:hover
+        color: var(--black-color)
+  .swiper-arrow-prev, .swiper-arrow-next
+    height: 40px
+    cursor: pointer
+    transition: var(--transition-s)
+    +flex
+    &::after
+      font-family: 'icomoon'
+      font-size: px(24)
+    &:hover
+      color: var(--white-color)
+  .swiper-arrow-prev
+    margin-right: 40px
+    &::after
+      content: '\e900'
+  .swiper-arrow-next
+    &::after
+      content: '\e901'
+
+// scroll-btn
+.scroll-btn
+  position: relative
+  padding: 0 10px 80px
+  cursor: pointer
+  &.brown
+    color: var(--main-color)
+    &::before, &::after
+      background-color: var(--main-color)
+  &::before, &::after
+    background-color: var(--black-color)
+    +pseudo
+  &::before
+    left: 0
+    bottom: 0
+    width: 1px
+    height: 100%
+  &::after
+    left: 1px
+    bottom: 0
+    width: 15px
+    height: 1px
+    transform: rotate(-45deg)
+    transform-origin: left bottom
+  span
+    writing-mode: vertical-rl
+    font-size: px(14)
+
